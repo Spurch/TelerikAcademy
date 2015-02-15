@@ -1,4 +1,0 @@
-Spurch@Telrik Software Academy C# Part 2.|
-==========================================
-Royal Griffin Team Console Game          |
-==========================================  
