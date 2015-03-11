@@ -10,5 +10,7 @@ All submitted work will be in .zip archive format. This refers mostly to:
 
 
 Exceptions will be made for single source file examples and so on.
+
 All uploaded .zip archives are clean - a.k.a no Debug, Bin, Obj etc. unnecessary luggage.
+
 All Solutions are created and tested on MS Windows 7 Ultimate edition & MS Visual Studio 2013 Prof. edition.
