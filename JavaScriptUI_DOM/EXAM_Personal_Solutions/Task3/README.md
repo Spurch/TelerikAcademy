@@ -1,4 +1,4 @@
-# JavaScript UI & DOM – Practical Exam
+# JavaScript UI & DOM â€“ Practical Exam
 6 August 2015
 
 ## Task 3
