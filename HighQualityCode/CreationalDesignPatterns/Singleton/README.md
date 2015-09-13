@@ -12,7 +12,7 @@
 		- Осигуряването на единствена инстанция в многонишкова среда в зависимост от конкретния език за програмиране. 
 	
 	2. ##Структура:
-		![prototype-pattern-structure](Singleton_Pattern.jpg)
+		![](https://raw.githubusercontent.com/Spurch/TelerikAcademy/master/HighQualityCode/CreationalDesignPatterns/Singleton/Singleton_Pattern.jpg)
 	
 	3. ##Имплементация:
 		Има множество примери за ситуации, в които бихме искали да си гарантираме единствена променлива от даден клас:
