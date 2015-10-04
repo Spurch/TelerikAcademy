@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <name>Greatest Hits</name>
+    <artist>Lili Ivanova</artist>
+    <year>1600</year>
+    <producer>Balkanton</producer>
+    <price>30</price>
+    <trackList>
+      <song>
+        <title>Vetrove</title>
+        <duration>999999</duration>
+      </song>
+      <song>
+        <title>Detelini</title>
+        <duration>333333</duration>
+      </song>
+    </trackList>
+  </album>
+  <album>
+    <name>The Battle Rages On</name>
+    <artist>Deep Purple</artist>
+    <year>1993</year>
+    <producer>Roger Glover</producer>
+    <price>25</price>
+    <trackList>
+      <song>
+        <title>The Battle Rages On</title>
+        <duration>356</duration>
+      </song>
+      <song>
+        <title>Anya</title>
+        <duration>396</duration>
+      </song>
+      <song>
+        <title>Nasty Piece Of Work</title>
+        <duration>283</duration>
+      </song>
+    </trackList>
+  </album>
+  <album>
+    <name>Heroes</name>
+    <artist>Sabaton</artist>
+    <year>2014</year>
+    <producer>Peter Tagtgren</producer>
+    <price>40</price>
+    <trackList>
+      <song>
+        <title>Night Witches</title>
+        <duration>180</duration>
+      </song>
+      <song>
+        <title>Inmate 4859</title>
+        <duration>266</duration>
+      </song>
+      <song>
+        <title>To Hell And Back</title>
+        <duration>206</duration>
+      </song>
+    </trackList>
+  </album>
+  <album>
+    <name>Poetry For The Poisoned</name>
+    <artist>Kamelot</artist>
+    <year>2010</year>
+    <producer>Sascha Paeth</producer>
+    <price>15</price>
+    <trackList>
+      <song>
+        <title>The Great Pandemonium</title>
+        <duration>264</duration>
+      </song>
+    </trackList>
+  </album>
+</catalogue>
