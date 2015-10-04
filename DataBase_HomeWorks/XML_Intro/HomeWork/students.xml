@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<students xmlns:students="urn:students">
+  <student>
+    <facultyNumber></facultyNumber>
+    <name>Ivan Nikolov</name>
+    <sex>Male</sex>
+    <birthdate>17/02/1990</birthdate>
+    <phone>+359887089841</phone>
+    <email>spurchester@gmail.com</email>
+    <course>Databases</course>
+    <speciality>Informatics</speciality>
+    <exams>
+      <exam>
+        <name></name>
+        <tutor></tutor>
+        <score></score>
+      </exam>
+    </exams>
+  </student>
+</students>
