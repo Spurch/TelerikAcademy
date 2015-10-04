@@ -1,6 +1,0 @@
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin\Debug\XMLProcessingHomeWork.exe.config
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin\Debug\XMLProcessingHomeWork.exe
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin\Debug\XMLProcessingHomeWork.pdb
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj\Debug\XMLProcessingHomeWork.exe
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj\Debug\XMLProcessingHomeWork.pdb
-c:\users\ivan\documents\visual studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj\Debug\XMLProcessingHomeWork.csprojResolveAssemblyReference.cache
