@@ -1,2 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork">
+  <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin">
+    <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin\Debug">
+      <file name="XMLProcessingHomeWork.exe" />
+      <file name="XMLProcessingHomeWork.exe.config" />
+      <file name="XMLProcessingHomeWork.pdb" />
+      <file name="XMLProcessingHomeWork.vshost.exe" />
+      <file name="XMLProcessingHomeWork.vshost.exe.config" />
+      <file name="XMLProcessingHomeWork.vshost.exe.manifest" />
+    </dir>
+    <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\bin\Release" />
+  </dir>
+  <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\DataExtractor">
+    <file name="XmlManipulators.cs" />
+    <file name="XmlTransform.cs" />
+  </dir>
+  <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\DataFeeder">
+    <file name="DirectoryCrawer.cs" />
+    <file name="TextFileReader.cs" />
+  </dir>
+  <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj">
+    <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj\Debug">
+      <dir path="C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork\obj\Debug\TempPE" />
+      <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+      <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+      <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+      <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      <file name="XMLProcessingHomeWork.csproj.FileListAbsolute.txt" />
+      <file name="XMLProcessingHomeWork.csprojResolveAssemblyReference.cache" />
+      <file name="XMLProcessingHomeWork.exe" />
+      <file name="XMLProcessingHomeWork.pdb" />
+    </dir>
+  </dir>
+  <file name="App.config" />
+  <file name="AppStart.cs" />
+  <file name="Catalogue.xml" />
+  <file name="Catalogue.xsd" />
+  <file name="catalogue.xslt" />
+  <file name="Config.cs" />
+  <file name="PersonDetails.txt" />
+  <file name="TextParseResult.xml" />
+  <file name="XMLProcessingHomeWork.csproj" />
+  <file name="XResult.xml" />
+</dir>

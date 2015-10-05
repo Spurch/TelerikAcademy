@@ -27,6 +27,13 @@ namespace XMLProcessingHomeWork
                 writer.WriteEndDocument();
             }
         }
+
+        public static void StartXCrawer(string targetDir)
+        {
+            var xmlResult = XPathCrawer(targetDir);
+            xmlResult.Save(Config.XRESULT);
+        }
+
         /*
         Method that uses recursion to craw through all the files and subdirs
         in a given directory.
@@ -61,33 +68,25 @@ namespace XMLProcessingHomeWork
                 writer.WriteEndElement();
         }
 
-        public static void XPathCrawer(string targetDir)
+        private static XElement XPathCrawer(string targetDir)
         {
             if (!Directory.Exists(targetDir))
             {
                 throw new ArgumentException("Incorrect directory path!");
             }
             var root = Directory.CreateDirectory(targetDir);
-            FileInfo[] files = null;
-            DirectoryInfo[] subDirs = null;
-            files = root.GetFiles("*.*");
-            XElement xmlElement;
-            XDocument xmlDoc = new XDocument(
-                new XElement("dir", new XAttribute("name", root.Name)));
-            if (files != null)
+            var node = new XElement("dir", new XAttribute("path", targetDir));
+
+            foreach (var directory in Directory.GetDirectories(targetDir))
             {
-                foreach (var file in files)
-                {
-                    xmlElement = new XElement("file", new XAttribute("name", file.Name), new XAttribute("extension", file.Extension));
-                    xmlDoc.Add(xmlElement);
-                }
+                node.Add(XPathCrawer(directory));
             }
-            subDirs = root.GetDirectories();
-            foreach (var dir in subDirs)
+
+            foreach (var file in Directory.GetFiles(targetDir))
             {
-                XPathCrawer(dir.FullName);
+                node.Add(new XElement("file", new XAttribute("name", Path.GetFileName(file))));
             }
-            xmlDoc.Save(Config.XRESULT);
+            return node;
         }
     }
 }

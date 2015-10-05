@@ -16,7 +16,7 @@
             //XmlTransform.ValidateXml(Config.XMLSCHEMA, Config.XMLDOCUMENTPATH);
             //XmlManipulators.OldAlbumPrice();
             //XmlManipulators.OldAlbumPriceLinq();
-            DirectoryCrawer.XPathCrawer(@"C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork");
+            DirectoryCrawer.StartXCrawer(@"C:\Users\Ivan\Documents\Visual Studio 2015\Projects\XMLProcessing\XMLProcessingHomeWork");
         }
     }
 }
