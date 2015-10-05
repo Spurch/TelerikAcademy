@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
-<students xmlns:students="urn:students">
-  <student>
+<students>
+  <student xmlns:students="urn:students">
     <facultyNumber></facultyNumber>
-    <name>Ivan Nikolov</name>
+    <name>Petur Petrov</name>
     <sex>Male</sex>
-    <birthdate>17/02/1990</birthdate>
-    <phone>+359887089841</phone>
-    <email>spurchester@gmail.com</email>
+    <birthdate>12/06/1987</birthdate>
+    <phone>+359123456789</phone>
+    <email>PeturPetrov@gmail.com</email>
     <course>Databases</course>
     <speciality>Informatics</speciality>
     <exams>

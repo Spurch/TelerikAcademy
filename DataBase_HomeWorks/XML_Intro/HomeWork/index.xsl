@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
-        <html lang="en">
+        <html>
             <head>
-                <meta charset="utf-8" />
                 <title>Database Course @ Telerik Academy 2015</title>
             </head>
             <body>
@@ -17,13 +17,13 @@
                             <xsl:for-each select="students/student">
                                 <li>
                                     <ul>
-                                        <li><xsl:value-of select="facultyNumber" /></li>
-                                        <li><xsl:value-of select="name" /></li>
-                                        <li><xsl:value-of select="sex" /></li>
-                                        <li><xsl:value-of select="birthDate" /></li>
-                                        <li><xsl:value-of select="phone" /></li>
-                                        <li><xsl:value-of select="email" /></li>
-                                        <li><xsl:value-of select="course" /></li>
+                                        <li><xsl:value-of select="facultyNumber"/></li>
+                                        <li><xsl:value-of select="name"/></li>
+                                        <li><xsl:value-of select="sex"/></li>
+                                        <li><xsl:value-of select="birthDate"/></li>
+                                        <li><xsl:value-of select="phone"/></li>
+                                        <li><xsl:value-of select="email"/></li>
+                                        <li><xsl:value-of select="course"/></li>
                                     </ul>
                                 </li>
                             </xsl:for-each>
