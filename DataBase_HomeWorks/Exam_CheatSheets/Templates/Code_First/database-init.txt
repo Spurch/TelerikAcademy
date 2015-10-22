@@ -1,0 +1,14 @@
+namespace MySolution.MyClassInit
+{
+    using System;
+
+    public class MyClassInit
+    {
+        private MyClassDbContext dbContext;
+
+        public MyClassInit()
+        {
+            this.dbContext = new MyClassDbContext();
+        }
+    }
+}

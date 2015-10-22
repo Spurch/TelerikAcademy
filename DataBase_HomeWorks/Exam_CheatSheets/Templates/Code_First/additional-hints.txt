@@ -1,0 +1,11 @@
+1. MANY-TO-MANY:
+  For a relation of type many-to-many we need to have corresponding ICollection<> in each of the classes.
+  This means that if class A has a many-to-many relationship with class B in class A we'll have ICollection<B>
+  and in class B we'll have ICollection<A>.
+2. ONE-TO-MANY:
+  For a relation of type one-to-many we need to have a ICollection<> collection in the first class and a single
+  property in the second class. This means that if Class A has a one-to-many relationship with Class B then in
+  Class A we'll have ICollection<B> and in Class B we'll have a public virtual property of type A.
+3. ONE-TO-ONE:
+  The only difference between one-to-one and one-to-many is that in one-to-one both Class A and Class B will hold
+  a single property that refers to the other Class.

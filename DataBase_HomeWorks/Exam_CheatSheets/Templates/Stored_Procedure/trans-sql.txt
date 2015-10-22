@@ -1,0 +1,13 @@
+USE YourDataBaseName
+GO
+
+CREATE PROC dbo.usp_TheNameOfTheProcedure
+AS
+  Enter your SQL query here!
+GO
+
+
+After that if you want to use the stored procedure:
+
+EXEC dbo.usp_TheNameOfTheProcedure
+GO

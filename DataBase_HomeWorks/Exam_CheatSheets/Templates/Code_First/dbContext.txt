@@ -1,0 +1,31 @@
+namespace MySolution.Data
+{
+    using System;
+    using System.Data.Entity;
+    using MySolution.Model;
+
+    public class MyClassDbContext : DbContext
+    {
+        public MyClassDbContext()
+            : base("The name property of the connection string from the App.config file")
+        {
+            /*
+              NOTE: We set the migration with this call here.
+              NOTE: We also need to open the Package Manager Console, set the Default project to the
+              project that we are going to use for the DbContext and enter in the console:
+                  Enable-migration
+              Executing this command will create two(or one) folders in the Default project - you need
+              the Configuration.cs in it you must set:
+                  AutomaticMigrationEnable = true;
+                  AutomaticMigrationDataLossAllowed = false;
+            */
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<MyClassDbContext, Configuration>());
+        }
+
+        public virtual DbSet<MyClass> MyClassInstance { get; set; }
+
+        public virtual DbSet<MyOtherClass> MyOtherClassInstance { get; set; }
+
+        public virtual DbSet<MyPropertyInstance> MyPropertyInstance { get; set; }
+    }
+}

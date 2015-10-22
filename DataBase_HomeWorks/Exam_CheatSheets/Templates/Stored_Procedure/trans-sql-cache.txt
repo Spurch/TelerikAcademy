@@ -1,0 +1,12 @@
+CREATE PROC dbo.usp_CacheProcedureName
+AS
+    DELETE FROM dbo.TheTableYouAreUsingForCache
+    INSERT INTO dbo.TheTableYouAreUsingForCache
+
+    Add here the SQL query that actually fills
+    dbo.TheTableThatYouAreUsingForCache with data!
+    
+GO
+
+EXEC dbo.usp_CacheProcedureName
+GO
