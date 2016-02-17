@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSystem", "MovieSystem\MovieSystem.csproj", "{07AB588A-9CF7-40FC-87F9-074023F0314D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7049FADA-5F03-4ED7-BBFA-5D546FBB73D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSystem.Data", "MovieSystem.Data\MovieSystem.Data.csproj", "{40FB1791-FF08-4430-9C5B-1617E06F6B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSystem.Models", "MovieSystem.Models\MovieSystem.Models.csproj", "{7B91F46E-8351-496E-AB71-F3B7C26EDE8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07AB588A-9CF7-40FC-87F9-074023F0314D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AB588A-9CF7-40FC-87F9-074023F0314D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AB588A-9CF7-40FC-87F9-074023F0314D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AB588A-9CF7-40FC-87F9-074023F0314D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FB1791-FF08-4430-9C5B-1617E06F6B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FB1791-FF08-4430-9C5B-1617E06F6B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FB1791-FF08-4430-9C5B-1617E06F6B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FB1791-FF08-4430-9C5B-1617E06F6B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B91F46E-8351-496E-AB71-F3B7C26EDE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B91F46E-8351-496E-AB71-F3B7C26EDE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B91F46E-8351-496E-AB71-F3B7C26EDE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B91F46E-8351-496E-AB71-F3B7C26EDE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40FB1791-FF08-4430-9C5B-1617E06F6B02} = {7049FADA-5F03-4ED7-BBFA-5D546FBB73D8}
+		{7B91F46E-8351-496E-AB71-F3B7C26EDE8B} = {7049FADA-5F03-4ED7-BBFA-5D546FBB73D8}
+	EndGlobalSection
+EndGlobal
