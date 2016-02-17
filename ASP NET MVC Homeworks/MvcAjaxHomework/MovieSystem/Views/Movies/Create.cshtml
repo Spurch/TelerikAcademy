@@ -7,10 +7,10 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Ajax.BeginForm("Create", new AjaxOptions { HttpMethod = "Post"}) )
 {
     @Html.AntiForgeryToken()
-    
+	   
     <div class="form-horizontal">
         <h4>Movie</h4>
         <hr />
@@ -49,7 +49,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default" onclick="SaveMovie(); return false;"/>
             </div>
         </div>
     </div>
@@ -58,7 +58,29 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+<script>
+	function SaveMovie() {
 
+		$.validator.unobtrusive.parse($form);
+		$form.validate();
+		if ($form.valid()) {
+
+			$.ajax({
+				type: "POST",
+				url: "/Movies/Create",
+				contentType: "application/json; charset=utf-8",
+				data: {
+					Id: $('.cityId').val(),
+					City: $('.cityName').val()
+				},
+				success: function (data) {
+				}
+
+			});
+
+		}
+	}
+</script>
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
